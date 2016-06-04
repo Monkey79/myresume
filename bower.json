@@ -1,0 +1,21 @@
+{
+  "name": "My Resume",
+  "authors": [
+    "Monkey79 <marianomartin79@gmail.com>"
+  ],
+  "description": "with everything related to new technologies such as as html5, sass, angular, node js.",
+  "main": "index.html",
+  "keywords": [
+    "index"
+  ],
+  "license": "MIT",
+  "homepage": "http://kunfumonkey.com/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}

@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,700);
+/*font-family: 'Raleway', sans-serif;*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+/* font-family: 'Open Sans', sans-serif; */
+
+
+/********************************* */
+/*=========     Global   ========= */
+/********************************* */
+body {
+	margin: 0 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 h2 h3 h4 {
+    font-family: 'Raleway', sans-serif;
+  
+}
+
+/********************************* */
+/*=========     Main     ========= */
+/********************************* */
+.main-cont{
+  	background-color: #d3e6f2;
+}
+
+
+/********************************* */
+/*======= Personal Info  ========= */
+/********************************* */
+.personal-info-cont{
+	background-image: url(../img/header.jpg);
+}
+.my-info {
+	color: black;
+	font-size: 30px;
+}
+.my-info span {
+	font-size: 25px;
+	font-weight: bold;
+}
+.my-info a {
+	text-decoration: none;
+	color: inherit;
+	font-size: inherit;
+}
+
+.my-photo-cont {
+	
+}
+.my-photo{	
+	margin: 0 0;		
+}
+
+/********************************* */
+/*=======    About me    ========= */
+/********************************* */
+.about-me {
+	margin-bottom: 2%;
+}
+.about-me p {
+	font-size: 26px;
+}
+
+/********************************* */
+/*======= My Skills      ========= */
+/********************************* */
+.skill-cont {
+	margin-bottom: 2%;
+	min-height: 505px;
+} 
+.skill-cont p {	
+	font-size: 20px;
+}
+.skill-icon-cont{
+	text-align: center;
+}
+.skill-prgh {
+/* 	border:1px solid blue;
+	 */	min-height: inherit;
+}
+
+/********************************* */
+/*======= Eductions      ========= */
+/********************************* */
+.education-cont {
+	margin-bottom: 2%;
+}
+.education-header i{
+	font-size: 40px;
+}
+.education-cont .education {
+	margin-left: 3%;
+}
+
+
+/********************************* */
+/*======= Contact me     ========= */
+/********************************* */
+.contact-me{
+	margin-bottom: 2%;
+}
+
+.name-cont {
+}
+
+.contact-me label {
+	width: 100%;
+}
+.contact-me label input[type=text], input[type=email] {
+    color: #979797;
+    height: 48px;
+    width: 95%;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    border:1px solid black;
+}
+
+.comments-cont textarea {
+    color: #979797;
+    width: 90%;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    overflow-y: scroll;
+    width: 97%;
+    border:1px solid black;
+}
+
+.submit-cont .form-btn{
+    background-color: #00aef3;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;    
+    display: block; 
+    margin: 12px auto;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.email-cont {}
+.comments-cont {}
+
+/********************************* */
+/*======= Media Queries  ========= */
+/********************************* */
+@media (min-width: 993px) {
+	.my-photo{	
+		float: right;
+	}
+}
+
+@media (max-width: 1199px){
+	.skill-cont {
+		min-height: 334px;
+	} 
+}
+
+@media (max-width: 767px){
+	.skill-cont {
+		min-height: 230px;
+	} 
+}
