@@ -12,8 +12,7 @@
   "homepage": "http://kunfumonkey.com/",
   "private": true,
   "ignore": [
-    "**/.*",
-    "bower_components"
+     "bower_components"
   ],
   "dependencies": {
     "bootstrap": "~3.3.6"
